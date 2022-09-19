@@ -67,6 +67,9 @@
                 <mxCell id="17" value="Gopay" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
                     <mxGeometry x="70" y="770" width="120" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="30" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="18" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="18" value="Pesanan di terima restoran" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
                     <mxGeometry x="235" y="900" width="120" height="60" as="geometry"/>
                 </mxCell>
@@ -103,6 +106,31 @@
                         <mxPoint x="235" y="930" as="targetPoint"/>
                         <Array as="points">
                             <mxPoint x="115" y="930"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="26" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="26" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="mencari driver" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="1000" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="menemukan driver&lt;br&gt;pesanan di terima" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="1010" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="gagal menemukan driver" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="1010" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="28">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="135" y="1080" as="sourcePoint"/>
+                        <mxPoint x="290" y="1080" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="135" y="1120"/>
+                            <mxPoint x="290" y="1120"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
