@@ -134,6 +134,9 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="36" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="33" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="33" value="pesanan diantar ke alamat tujuan" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="235" y="1169" width="120" height="60" as="geometry"/>
                 </mxCell>
@@ -145,6 +148,15 @@
                             <mxPoint x="470" y="1200"/>
                         </Array>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="35" target="37">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="pesanan diantar ke alamat tujuan" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="235" y="1270" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="End" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+                    <mxGeometry x="235" y="1370" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
