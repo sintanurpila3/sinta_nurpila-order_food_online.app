@@ -45,3 +45,6 @@ ELSE IF "Pembayaran_gopay" = true
 	STORE "pin" with number
 Else 
 	Go to Return payment
+
+END WHILE
+Display Completed Orders
