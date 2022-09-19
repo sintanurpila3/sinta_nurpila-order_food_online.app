@@ -1,0 +1,19 @@
+Display start app
+
+STORE "username"
+STORE "password"
+STORE "login" AS BOOLEAN with TRUE 
+
+IF login = true 
+	Go to page Menu
+	display main app
+ELSE 
+	Go to page login
+
+FUNCTION login ()
+	While login = false 
+	READ AND WRITE username with string
+	READ AND WRITE PASSWORD with string
+	if success 
+		Go to Menu
+END FUNCTION
