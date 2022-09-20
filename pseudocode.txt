@@ -1,0 +1,50 @@
+Display start app
+
+STORE "username"
+STORE "password"
+STORE "login" AS BOOLEAN with TRUE 
+
+IF login = true 
+	Go to page Menu
+	display main app
+ELSE 
+	Go to page login
+
+FUNCTION login ()
+	While login = false 
+	READ AND WRITE username with string
+	READ AND WRITE PASSWORD with string
+	if success 
+		Go to Menu
+END FUNCTION
+
+STORE "payment" AS BOOLEAN with TRUE
+STORE "total_payment" AS NUMBER with 0
+
+
+STORE "payment" AS BOOLEAN with TRUE
+STORE "total_payment" AS NUMBER with 0
+
+
+WHILE Payment
+
+Display order list
+
+READ AND WRITE "harga" with number 
+READ AND WRITE "jumlah" with number
+READ AND WRITE "total" with number
+
+STORE "total_payment" with calculate "harga" * "jumlah"
+PRINT "total_payment"
+
+IF "pembayaran_cash" = true
+	Go to checkout
+
+ELSE IF "Pembayaran_gopay" = true
+	Go to Input pin
+	STORE "pin" with number
+Else 
+	Go to Return payment
+
+END WHILE
+Display Completed Orders
